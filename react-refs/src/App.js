@@ -1,10 +1,13 @@
 import "./App.css";
 import RefInpWithCC from "./components/RefsInputWithClassComponent";
+import Timeout from "./components/Timeout";
 
 function App() {
   return (
     <div className="App">
-      <RefInpWithCC />
+      {/* <RefInpWithCC />
+       */}
+      <Timeout />
     </div>
   );
 }
